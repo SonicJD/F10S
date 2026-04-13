@@ -34,8 +34,15 @@ Per mantenir el garatge ordenat, utilitzem la següent estructura:
 ## 📄 Llicència
 Aquest projecte està sota la llicència **MIT**. Pots consultar el fitxer `LICENSE` per a més detalls.
 
-## 🆕 Funcionalitats Recents
-* **Gestió d'Energia:** Ara el sistema es pot apagar (`retire`) i reiniciar (`restart`).
+🆕 **Funcionalitats recents**
+
+* **Gestió d'Energia:** Ara el sistema es pot apagar (*retire*) i reiniciar (*restart*).
 * **Unitat Aritmètica:** Nova comanda `calc` per realitzar operacions:
-    * Suma, Resta, Multiplicació i Divisió.
-    * Mòdul (`mod`) i Arrel Quadrada (`sqrt`).
+
+  * Suma
+  * Resta
+  * Multiplicació
+  * Divisió
+  * Mòdul (`mod`)
+  * Arrel quadrada (`sqrt`)
+* **Teclat:** S’ha afegit suport de teclat amb configuració de layout estàndard espanyol:
