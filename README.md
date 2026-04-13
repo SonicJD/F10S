@@ -46,3 +46,5 @@ Aquest projecte està sota la llicència **MIT**. Pots consultar el fitxer `LICE
   * Mòdul (`mod`)
   * Arrel quadrada (`sqrt`)
 * **Teclat:** S’ha afegit suport de teclat amb configuració de layout estàndard espanyol:
+
+* **Directoris** S'ha afegit creacio, llistat, destruccio i moviment entre directoris
