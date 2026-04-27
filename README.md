@@ -1,76 +1,73 @@
-Aquí tens una proposta per actualitzar el teu **README.md**. He integrat les noves funcionalitats seguint la temàtica de Fórmula 1, mantenint l'estil net i professional que ja tenies.
+Aquí tens el **README.md** actualitzat amb les noves millores tècniques i d'organització, mantenint la coherència amb la temàtica de Fórmula 1:
 
------
+---
 
 # 🏎️ F1OS (Formula 1 Operating System)
 
-## 🏁 Descripció
+![Logo de F1OS](assets/logo.png)
 
-**F1OS** és un sistema operatiu de 64 bits desenvolupat sobre el framework **Cosmos (C\# Open Source Managed Operating System)**.
+## 🏁 Descripció
+**F1OS** és un sistema operatiu de 64 bits desenvolupat sobre el framework **Cosmos (C# Open Source Managed Operating System)**. 
 
 Inspirat en l'enginyeria de precisió de la Fórmula 1, aquest sistema busca la màxima optimització, velocitat de resposta i una arquitectura modular que permeti un rendiment "pole position" en cada procés.
 
------
+---
 
 ## 👥 Membres del Grup
-
 El "Pit Wall" d'aquest projecte està format per:
+* **Jefferson Méndez** 🏎️
+* **Biel Duran** 🔧
 
-  * **Jefferson Méndez** 🏎️
-  * **Biel Duran** 🔧
-
------
+---
 
 ## 🛠️ Estructura del Repositori
+Per mantenir el garatge ordenat i facilitar el manteniment, hem organitzat el projecte de la següent manera:
+* `src/`: Codi font del Kernel i biblioteques del sistema. Ara modularitzat en diferents fitxers per separar la lògica de comandaments, àudio i sistema de fitxers.
+* `docs/`: Documentació tècnica i manuals d'usuari.
+* `assets/`: Recursos gràfics, logotips i icones.
 
-Per mantenir el garatge ordenat, utilitzem la següent estructura:
-
-  * `src/`: Codi font del Kernel i biblioteques del sistema.
-  * `docs/`: Documentació tècnica i manuals d'usuari.
-  * `assets/`: Recursos gràfics, logotips i icones.
-
------
+---
 
 ## 🚀 Tecnologies utilitzades
+* **Llenguatge:** C# (.NET Core)
+* **Kernel Base:** Cosmos Kit
+* **Arquitectura:** x86/x64
+* **Àudio:** Cosmos Audio Driver
 
-  * **Llenguatge:** C\# (.NET Core)
-  * **Kernel Base:** Cosmos Kit
-  * **Arquitectura:** x86/x64
-  * **Àudio:** Cosmos Audio Driver (PCSpeaker/AudioMixer)
-
------
+---
 
 ## 🆕 Funcionalitats recents
 
+### 💾 Memòria de Comandes (Race History)
+S'ha implementat un sistema de telemetria bàsica per a les comandes:
+* **Historial:** El sistema emmagatzema les **últimes 5 comandes** executades.
+* **Recuperació:** L'usuari pot recuperar i tornar a executar comandes prèvies per guanyar temps a la "línia de boxs".
+
+### 🧹 Manteniment de Pista (Clear Screen)
+* S'ha afegit la comanda `cls` o `clear` per netejar la pantalla de la terminal, eliminant el "marcatge" de comandes anteriors i deixant la interfície neta per a noves operacions.
+
 ### 🔊 Sistema d'Àudio (Pit Wall Radio)
+* **Startup Sound:** Melodia de benvinguda.
+* **Feedback sonor:** Sons diferenciats per a comandes correctes i errors de sistema.
 
-Hem implementat la gestió de so per millorar el *feedback* de l'usuari, seguint la guia oficial de COSMOS:
+### ⚙️ Arquitectura i Codi (Engineering Dept.)
+* **Refactorització:** El codi s'ha separat en funcions i fitxers independents segons la seva responsabilitat (gestió de fitxers, unitat aritmètica, drivers d'àudio).
+* **Documentació interna:** S'han afegit comentaris tècnics detallats a tot el codi font per facilitar el treball col·laboratiu i futures expansions.
 
-  * **Startup Sound:** Una melodia de benvinguda al carregar el sistema.
-  * **Command Success:** Notificació sonora quan una comanda s'executa correctament.
-  * **Error Alert:** Senyal acústic per indicar que una operació ha fallat.
+---
 
-### 🎨 Identitat Visual (ASCII Logo)
+## 📂 Gestió de Fitxers i Directoris
+* Suport per a la creació, llistat (`ls`), eliminació i navegació entre directoris dins de la unitat de disc.
 
-  * **Branding d'inici:** Ara, en arrencar el sistema, es desplega un logotip en **ASCII Art** que reforça la identitat de F1OS abans de donar el control a l'usuari.
+## 🧮 Unitat Aritmètica (Engine Stats)
+* Comanda `calc` amb suport per a: Suma, Resta, Multiplicació, Divisió, Mòdul (`mod`) i Arrel quadrada (`sqrt`).
 
-### 📂 Gestió de Fitxers i Directoris
-
-  * Suport per a la creació, llistat (`ls`), eliminació i navegació entre directoris.
-
-### 🧮 Unitat Aritmètica (Engine Stats)
-
-  * Nova comanda `calc` amb suport per a: Suma, Resta, Multiplicació, Divisió, Mòdul (`mod`) i Arrel quadrada (`sqrt`).
-
-### ⌨️ Configuració i Energia
-
-  * **Teclat:** Suport total per al layout estàndard espanyol.
-  * **Energia:** Control de tancament (`retire`) i reinici (`restart`) del sistema.
-
------
+---
 
 ## 📄 Llicència
-
 Aquest projecte està sota la llicència **MIT**. Pots consultar el fitxer `LICENSE` per a més detalls.
 
------
+---
+
+### 💡 Propers passos
+> Estem treballant en millorar la persistència de dades i en una interfície visual encara més immersiva per a l'experiència F1OS.
