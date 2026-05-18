@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "eEiKz/WQxqg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bield\\source\\repos\\CosmosKernel12\\CosmosKernel12\\CosmosKernel12.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20260323055155\\cosmos.build.0.1.0-localbuild20260323055155.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20260323055207\\cosmos.common.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20260323055207\\cosmos.core.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20260323055207\\cosmos.debug.kernel.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20260323055207\\cosmos.hal2.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20260323055207\\cosmos.plugs.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20260323055207\\cosmos.system2.0.1.0-localbuild20260323055207.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\cosmosftpserver\\1.0.9\\cosmosftpserver.1.0.9.nupkg.sha512",
+    "C:\\Users\\bield\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20260323055207\\il2cpu.api.0.1.0-localbuild20260323055207.nupkg.sha512"
+  ],
+  "logs": []
+}
