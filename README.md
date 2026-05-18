@@ -15,13 +15,6 @@ Inspirat en l'enginyeria de precisió de la Fórmula 1, aquest sistema busca la 
 
 ---
 
-## 🛠️ Estructura del Repositori
-* `src/`: Codi font complet (Kernel, gestors de gràfics, àudio i protocols de xarxa).
-* `docs/`: Manuals d'usuari, plànols del sistema de fitxers i configuració de xarxa per a emuladors (VMware/VirtualBox).
-* `assets/`: Recursos visuals, fonts de pantalla (`PCScreenFont`) i logotips de l'escut de F1OS.
-
----
-
 ## 💻 Arquitectura i Anàlisi Tècnica del Kernel
 
 El nucli del sistema (`Kernel.cs`) s'ha estructurat seguint les demandes del subsistema gràfic i el comportament síncron dels serveis de xarxa de Cosmos. A continuació s'expliquen els pilars tècnics de la implementació actual:
